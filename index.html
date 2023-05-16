@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NPS de Candidatos</title>
+  <link href="https://ferramentasitalents.github.io/custo-contratacao/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/custo-contratacao/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateNPS(); return false;">
+      <label>% de promotores da empresa:</label>
+      <input type="number" id="promotores" required>
+      <br>
+      <br>
+      <label>% de denegridores da empresa:</label>
+      <input type="number" id="denegridores" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
 
