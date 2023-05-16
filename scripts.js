@@ -4,4 +4,3 @@ function calculateNPS() {
   const nps = promotores - denegridores;
   document.getElementById("result").innerHTML = `NPS de Candidatos: ${nps.toFixed(2)}%`;
 }
-
